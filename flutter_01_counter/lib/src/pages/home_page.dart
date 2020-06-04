@@ -11,14 +11,14 @@ class HomePage extends StatelessWidget{
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Título'),
+        title: Text('flutter-01-counter'),
         centerTitle: true,
       ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Text( 'Número de clicks:', style: estiloTexto ),
+            Text( 'Number of taps:', style: estiloTexto ),
             Text( '$conteo'  , style: estiloTexto ),
           ],
         )
